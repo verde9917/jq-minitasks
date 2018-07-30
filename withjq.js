@@ -23,5 +23,13 @@ $(() => {
     $('#toggleClass').click(() => {
         $('#toggleClass').toggleClass('newClass');
     });
+    // task07
+    $('#fadeInButton').click(() => {
+        $('#fadeInText').fadeIn(1000);
+    });
+    // task08
+    $('#fadeOutButton').click(() => {
+        $('#fadeOutText').fadeOut(1000);
+    })
 });
 
