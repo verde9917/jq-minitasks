@@ -7,5 +7,10 @@ $(() => {
     $('#firstText').click(()=>{
         $('#targetOfChangeText').text('Hello,JavaScript!');
     });
+    // task03
+    $('#typeText').keyup(() => {
+        $('#typedText').text($('#typeText').val());
+    });
+
 });
 
