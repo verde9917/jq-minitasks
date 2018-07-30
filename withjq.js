@@ -4,13 +4,16 @@ $(() => {
         $('#targetOfChangeColor').css('color', '#ffc0c2');
     });
     // task02
-    $('#firstText').click(()=>{
+    $('#firstText').click(() => {
         $('#targetOfChangeText').text('Hello,JavaScript!');
     });
     // task03
     $('#typeText').keyup(() => {
         $('#typedText').text($('#typeText').val());
     });
-
+    // task04
+    $('#addClass').click(() => {
+        $('#addClass').addClass('newClass');
+    });
 });
 
