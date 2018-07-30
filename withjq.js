@@ -15,5 +15,9 @@ $(() => {
     $('#addClass').click(() => {
         $('#addClass').addClass('newClass');
     });
+    // task05
+    $('#removeClass').click(() => {
+        $('#removeClass').removeClass('newClass');
+    });
 });
 
